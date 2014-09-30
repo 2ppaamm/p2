@@ -9,7 +9,7 @@ ini_set('display_errors', 1);
 include "header.html"; ?>
     <script>
         function findPwd() {
-            var restmsg = "logic.php?numword="+document.forms["search"]["numword"].value+"&case="+
+            var restmsg = "project2/logic.php?numword="+document.forms["search"]["numword"].value+"&case="+
             document.forms["search"]["case"].value;
             if (document.getElementById("symbol").checked){
                 restmsg = restmsg + '&symbol=on';
@@ -27,8 +27,6 @@ include "header.html"; ?>
             xmlhttp.send();
         }
     </script>
-
-<?php require 'logic.php'; ?>
 
 <!-- begin:header -->
 <section id="header" class="heading" style="background: url(http://imgs.xkcd.com/comics/password_strength.png);">
@@ -64,18 +62,23 @@ include "header.html"; ?>
             <span><em>In <a href="http://dwa15.com">DWA</a></em></span>
         </div>
 
-        <p>Everyone has a password problem once in a while, but very seldom do we think of solutions.
-            But here's one using xkcd password generator, and in a creative way.
+        <p>Everyone has a password problem once in a while, and while we devise our own ways of solving the problem,
+            few have made it as famous as this one using xkcd password generator, and in a creative way, too.
         </p>
         <p>Here's  a simple version from me. You can choose between 3-8 words, in Camel, snake or space cases. Then,
         you can choose to add a symbol and a number.</p>
         <p>The rationale for such a password is as documented in the cartoon below.</p>
-        <p>I've tried to maximize the performance of this password search, and downloaded a local database of English words
+        <p>I've tried to maximize the performance of this password search, downloaded a local database of English words
             in the same server, and included an ajax form for the search to minimize data transfer. You can see the time
             the page is loaded, and that does not reload with every new search. This saves hosting/bandwidth costs for me,
             and download time for the user.
         </p>
         <p><img src="http://imgs.xkcd.com/comics/password_strength.png"></p>
+        <p>To make sense, I believe restricting the number of words to between 3 to 8 makes sense, so there won't be a chance
+        the user will key in non-integers or put in too big the number of words to cause a problem to the system.
+        </p>
+        <p>There is no validation of the form required as it is really quite a simple form, and I have
+            tried to make it as simple, fuss-free and user-friendly as relevant for a password generator.</p>
     </div>
 </div>
 
@@ -92,7 +95,7 @@ include "header.html"; ?>
     <h3>Search for password</h3>
     <div class="widget-sidebar">
 
-        <form id="search" class="navbar-form search" method="GET" role="search" action = "logic.php">
+        <form id="search" class="navbar-form search" method="GET" role="search" action = "project2/logic.php">
 
 
             <div class="row">

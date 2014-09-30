@@ -24,6 +24,9 @@ for ($i=1;$i <= $_GET["numword"]; $i++){
         }
         else $newword = strtolower($newword);
     }
+    else {
+        $newword = strtolower($newword).'&nbsp';
+    }
     echo $newword;
 }
 if (isset($_GET["symbol"])) {

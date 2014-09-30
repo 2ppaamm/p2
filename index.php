@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿<?php include "header.html"; ?>
+﻿﻿<?php include "header.html"; ?>
     <!-- begin:header -->
     <section id="header" style="background: url(img/img03.jpg) center center;">
         <div class="container">
@@ -389,4 +388,3 @@ ini_set('display_errors', 1);
 
 </body>
 </html>
->>>>>>> 256893cd479a0fd3f0f3c1aee50f1e2e5484494c
