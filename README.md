@@ -15,8 +15,9 @@ These are included:
 	
 Demo Information
 ================
-Done via Youtube Video when the final project is completed.
+Demonstration video:
+<iframe width="420" height="315" src="//www.youtube.com/embed/TOnn4RTanVQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Plugin/Libraries/Pages/Outside Code Used
 ========================================
-Not yet
+Bootstrap
