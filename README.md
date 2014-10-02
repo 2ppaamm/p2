@@ -16,7 +16,7 @@ These are included:
 Demo Information
 ================
 Demonstration video:
-<iframe width="420" height="315" src="//www.youtube.com/embed/TOnn4RTanVQ?rel=0" frameborder="0" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=TOnn4RTanVQ
 
 Plugin/Libraries/Pages/Outside Code Used
 ========================================
