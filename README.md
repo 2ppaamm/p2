@@ -15,8 +15,9 @@ These are included:
 	
 Demo Information
 ================
-Done via Youtube Video when the final project is completed.
+Demonstration video:
+https://www.youtube.com/watch?v=TOnn4RTanVQ
 
 Plugin/Libraries/Pages/Outside Code Used
 ========================================
-Not yet
+Bootstrap
